@@ -1,0 +1,9 @@
+# 投稿到 awesome-dsh-plugin（社区插件清单）。
+# 用法：把这个文件复制到 awesome-dsh-plugin 仓库的 data/plugins/ 下，文件名与仓库名一致，然后提 PR。
+# 文件名格式：<owner>__<repo>.yml
+url: https://github.com/2214311960/dsh-wallpaper-theme
+name: 2214311960/dsh-wallpaper-theme
+category: theme
+description:
+  en: 'Wallpaper and liquid-glass theme for DeepSeek Harness: scan a Wallpaper Engine workshop folder or any directory, click a tile to apply an image or video wallpaper, and tune wallpaper blur, surface opacity, glass blur and glass opacity, with liquid-glass popups and a click-follow highlight.'
+  zh: '给 DeepSeek Harness 用的壁纸 + 液态玻璃主题：扫描 Wallpaper Engine 创意工坊或任意文件夹，点击即换壁纸（图片或视频），并可调壁纸模糊、界面不透明度、毛玻璃模糊与不透明度；弹出菜单为液态玻璃，点击跟随高亮。'
