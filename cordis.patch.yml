@@ -1,0 +1,4 @@
+# 把本插件挂进 DSH 的配置树（安装后由 profile 的 cordis.patch.yml 引用）。
+- insert:
+    - id: wallpaper-theme
+      name: 'dsh-wallpaper-theme'

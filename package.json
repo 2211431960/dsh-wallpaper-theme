@@ -1,0 +1,56 @@
+{
+  "name": "dsh-wallpaper-theme",
+  "version": "1.0.0",
+  "description": "Wallpaper-driven liquid glass theme for DeepSeek Harness: scan Wallpaper Engine or any folder, click to apply an image or video wallpaper, with adjustable wallpaper blur, surface opacity and glass blur.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "wallpaper",
+    "glass",
+    "liquid-glass",
+    "theme",
+    "wallpaper-engine"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "meta": {
+    "title": "壁纸主题",
+    "description": "扫描 Wallpaper Engine 或任意文件夹，点击即换壁纸（图片/视频），并提供壁纸模糊、界面不透明度、毛玻璃模糊与毛玻璃不透明度四项控制。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2214311960/dsh-wallpaper-theme.git"
+  },
+  "homepage": "https://github.com/2214311960/dsh-wallpaper-theme#readme",
+  "bugs": {
+    "url": "https://github.com/2214311960/dsh-wallpaper-theme/issues"
+  }
+}

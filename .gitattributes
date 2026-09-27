@@ -1,0 +1,5 @@
+# 统一用 LF，避免 Windows 检出时把行尾改成 CRLF（归档与 npm 包才会字节一致）。
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
